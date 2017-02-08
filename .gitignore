@@ -1,0 +1,32 @@
+# User-specific files
+*.suo
+*.user
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio 2015 cache/options director
+.vs/
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# Node
+node_modules/
+
+# Ignore NuGet Packages
+*.nupkg
+
+# Ignore the packages folder
+**/packages/*
+
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
